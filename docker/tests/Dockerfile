@@ -1,7 +1,7 @@
 # Version: 0.1
 FROM ubuntu:14.04
 MAINTAINER Viktor Farcic "viktor@farcic.com"
-
+#test for a change
 # Packages
 RUN echo "deb http://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.list.d/sbt.list
 RUN apt-get update && \
